@@ -1,0 +1,33 @@
+def my_function(country="Norway"):
+    print("where is  " + country + "in europe")
+
+
+my_function("Sweden ")
+my_function("India ")
+my_function('nor ')
+my_function("Brazil ")
+# 247g
+
+
+def my_function(food):
+    for x in food:
+        print(x)
+
+
+fruits = ["apple", "banana", "cherry"]
+
+my_function(fruits)
+
+
+def my_function(x):
+    return 5 * x
+
+
+print(my_function(3))
+print(my_function(5))
+print(my_function(9))
+# 65555r
+
+
+def myfunction():
+    pass
