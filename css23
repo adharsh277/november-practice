@@ -1,0 +1,50 @@
+
+.post-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.post-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 35px;
+  height: 35px;
+  border: 2px solid #e2336b;
+  border-radius: 50%;
+}
+
+.post-img img {
+  width: 27px;
+  height: 27px;
+  object-fit: cover;
+  border-radius: 50%;
+  object-position: center;
+}
+
+.post-profile {
+  display: flex;
+  align-items: center;
+}
+
+.post-profile h3 {
+  font-size: 12px;
+  font-weight: 600px;
+  margin-left: 5px;
+}
+
+.likes {
+  display: flex;
+  align-items: center;
+}
+
+.likes i {
+  font-size: 20px;
+  margin-left: 7px;
+}
+
+.likes span {
+  font-size: 14px;
+  margin-left: 7px;
+}
